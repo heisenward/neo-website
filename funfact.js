@@ -17,7 +17,13 @@ document.addEventListener('DOMContentLoaded', function() {
       "Lancer",
       "Here is my favorite game of all time:",
       "Have you ever seen a cat?",
-      // Add more fun facts as needed
+      "Lucky Charm is the greatest dog ever!",
+      "Where am I going?",
+      "Thunderstruck",
+      "Them Changes",
+      "A Fan's Mail",
+      "Minecraft",
+      "Minceraft",
     ];
   
     // Get a random index from the funFacts array
