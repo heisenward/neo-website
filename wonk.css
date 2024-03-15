@@ -1,0 +1,87 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./dirt.jpg');
+    background-size: 200px;
+    background-position: center;
+    opacity: 40%;
+    z-index: -1;
+}
+
+marquee {
+    color:#FFFFFF;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ieatdogs {
+    width:480px;
+    height:100%;
+    background:rgba(54, 54, 54, 0.5);
+    backdrop-filter:blur(10px);
+    color:#FFFFFF;
+    font-size:48px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 19px;
+    outline: 4px solid #FFFFFF;
+}
+
+.funfact {
+    width:480px;
+    height:100%;
+    background-image: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+    backdrop-filter:blur(10px);
+    color:#FFFFFF;
+    font-size:48px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 19px;
+    outline: 4px solid #000000;
+}
+
+.empty {
+    height: 1000px
+}
+
+.top-empty {
+    height: 25px
+}
+
+.gradient {
+    height: 500px;
+    background-image: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+    border-radius: 19px;
+    outline: 4px solid #FFFFFF;
+}
+
+p {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-shadow: 1px 1px 0px rgba(26, 0, 87, 0.4);
+}
+
+h4 {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 35px;
+}
+
+a {
+    color:#bfffef
+}
