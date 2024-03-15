@@ -4,8 +4,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('./dirt.jpg');
-    background-size: 200px;
+    background-image: url('./dealtuner.jpg');
+    background-size: cover;
     background-position: center;
     opacity: 40%;
     z-index: -1;
@@ -27,7 +27,8 @@ body {
 }
 
 .ieatdogs {
-    width:45%;
+    max-width: 800px;
+    width:100%;
     height:100%;
     background:rgba(54, 54, 54, 0.5);
     backdrop-filter:blur(10px);
@@ -41,7 +42,8 @@ body {
 }
 
 .funfact {
-    width:480px;
+    max-width:480px;
+    width:100%;
     height:100%;
     background-image: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
     backdrop-filter:blur(10px);
@@ -55,14 +57,17 @@ body {
 }
 
 .empty {
+    width:100%;
     height: 1000px
 }
 
 .top-empty {
+    width:100%;
     height: 25px
 }
 
 .gradient {
+    width:100%;
     height: 500px;
     background-image: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
     border-radius: 19px;

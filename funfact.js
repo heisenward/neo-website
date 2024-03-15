@@ -13,6 +13,10 @@ document.addEventListener('DOMContentLoaded', function() {
       "This is one of the many random messages that can appear when you load the page.",
       "Hopes and dreams",
       "Classic",
+      "Deltarune",
+      "Lancer",
+      "Here is my favorite game of all time:",
+      "Have you ever seen a cat?",
       // Add more fun facts as needed
     ];
   
