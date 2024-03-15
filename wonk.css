@@ -27,7 +27,7 @@ body {
 }
 
 .ieatdogs {
-    width:480px;
+    width:45%;
     height:100%;
     background:rgba(54, 54, 54, 0.5);
     backdrop-filter:blur(10px);
