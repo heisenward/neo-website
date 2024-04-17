@@ -11,6 +11,19 @@
     z-index: -1;
 }
 
+.gamble-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./gamble rn.jpg');
+    background-size: 100%;
+    background-position: center;
+    opacity: 40%;
+    z-index: -1;
+}
+
 marquee {
     color:#FFFFFF;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -39,6 +52,28 @@ body {
     align-items: center;
     border-radius: 19px;
     outline: 2px solid #FFFFFF;
+}
+
+.ieatsounds {
+    min-width: 200px;
+    width: fit-content;
+    height: fit-content;
+    background:rgba(0, 0, 0, 0.343);
+    backdrop-filter:blur(10px);
+    color:#FFFFFF;
+    font-size:48px;
+    border-radius: 19px;
+    outline: 2px solid #e99d9d;
+    margin: 1%;
+    align-items: center;
+    justify-content: center;
+    display: table;
+}
+
+audio {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .funfact {
