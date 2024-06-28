@@ -15,6 +15,7 @@ class ParallaxBackground {
     }
     window.addEventListener('scroll', this.updateParallax);
     this.updateParallax(); // Initial call to set the position
+    this.addSmoothScrolling();
   }
 
   updateParallax() {
@@ -23,6 +24,33 @@ class ParallaxBackground {
     this.element.style.backgroundPositionY = `${backgroundOffset}px`;
 
     requestAnimationFrame(this.updateParallax);
+  }
+
+  addSmoothScrolling() {
+    let currentScroll = window.scrollY;
+    let targetScroll = window.scrollY;
+    let isScrolling = false;
+
+    const smoothScroll = () => {
+      if (currentScroll !== targetScroll) {
+        currentScroll += (targetScroll - currentScroll) * 0.1; // Smooth scroll factor
+        window.scrollTo(0, currentScroll);
+        requestAnimationFrame(smoothScroll);
+      } else {
+        isScrolling = false;
+      }
+    };
+
+    const handleScroll = (event) => {
+      event.preventDefault();
+      targetScroll += event.deltaY;
+      if (!isScrolling) {
+        isScrolling = true;
+        requestAnimationFrame(smoothScroll);
+      }
+    };
+
+    window.addEventListener('wheel', handleScroll, { passive: false });
   }
 }
 
