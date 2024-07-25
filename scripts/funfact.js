@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
       "It's a beautiful day outside. Birds are singing, flowers are blooming.",
       "This is one of the many random messages that can appear when you load the page.",
       "Hopes and dreams",
+      "How am I addicted if I start shaking when thinking about it?",
       "Classic",
       "Deltarune",
       "Here is my favorite game of all time:",
