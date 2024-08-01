@@ -136,5 +136,9 @@ a {
 } 
 .SoFun1 {
 
-    color: #FFFFFF; text-decoration: solid;
+    color: #FFFFFF; text-decoration: solid; 
+}
+.Moreg {
+    border-radius: 10px; color: brown; background-color: gold;
+
 }
