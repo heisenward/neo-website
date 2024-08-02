@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 
     <head>
+      <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
         <style>
             body{
     background-image:url("https://media.istockphoto.com/id/165418688/photo/gold-coins.jpg?s=1024x1024&w=is&k=20&c=cG1-eUS6B87Pxmk2FN8dn5AzjDvzV0YQHuuG_j_7ROg=");
@@ -16,6 +18,9 @@
     </head>
 
 <body>  
+    <audio id="audio0" src="c:/Users/natha/Downloads/13793006_casino-gambling-ambience_by_sound-ideas_preview (1).mp3"></audio>
+     <button onclick="playAudio()">Play Audio</button>
+      <script> function playAudio() { var audio0 = document.getElementById('audio0'); audio0.play(); } </script>
 
         <center>
 
@@ -25,8 +30,8 @@
             <a style="font-size:30px;border: solid 10px;
     text-align: center; border-radius: 4px; color: rgb(249, 231, 131);" href="https://youtu.be/io5I1JsImGA?si=u9PAidpgYNHIXjX0"> SEEEEEEEEEEE???????????</a><br><br><br><br><br>
     
-    <button class="Moreg" onclick=<h1>MORE GAMBLE!</h1></button>
-    <button class="Moreg" onclick=<h1>GAMBLE MORE!</h1></button>
+    <button class="Moreg"><h1>MORE GAMBLE!</h1></button>
+    <button class="Moreg"><h1>GAMBLE MORE!</h1></button>
 
 
     <p class="SoFun1"><bold>IN THE WORLD OF GAMBLING, THE POTENTIAL FOR HUGE WINS CAN BE BOTH EXCITING AND TEMPTING. THE POSSIBILITY OF BECOMING A MILLIONAIRE IS ALWAYS THERE, AND THE THIRILL OF PLACING YOUR BETS AND ANTICIPATING THE OUTCOME CAN BE AMAZING. THE PROSPECT OF WALKING AWAY WITH A BA-ZILLION DOLLARS IS SURE TO MAKE ANY BET ALL THE MORE ALLURING.</bold></p>
@@ -36,29 +41,6 @@
     <p class="SoFun1"><bold>GAMBLING IS SUPER AWESOME AND A TON OF FUN! WHEN YOU PLACE A BET, YOU GET A RUSH OF ADRENALINE AND EXCITEMENT, KNOWING THAT YOU COULD WIN LOTS OF MONEY! THE POSSIBILITY OF BECOMING RICH OVERNIGHT IS ALWAYS THERE, MAKING IT A VERY EXCITING GAMBLE!</bold></p>
         </center>
     
-        <button id="ASong" onClick="playPause()">
-            <audio
-              src="c:\Users\natha\Downloads\13793006_casino-gambling-ambience_by_sound-ideas_preview (1).mp3"
-              autoplay
-              loop
-            ></audio>
-            Song
-          </button>
-          
-          <script>
-            var aud = document.getElementById("ASong").children[0];
-            var isPlaying = false;
-            aud.pause();
-          
-            function playPause() {
-              if (isPlaying) {
-                aud.pause();
-              } else {
-                aud.play();
-              }
-              isPlaying = !isPlaying;
-            }
-          </script>
     </body>
 
 </html>
