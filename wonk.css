@@ -133,12 +133,23 @@ a {
     color:#bfffef;
     text-shadow: 1px 1px 0px rgba(26, 0, 87, 0.4);
 
-} 
-.SoFun1 {
-
-    color: #ece6e6; text-decoration: solid;
-}
-.Moreg {
- border-radius: 10px; color: brown; background-color: gold; 
-
-}
+    .SoFun1 {
+        color: black; /* Change text color to black for better readability */
+        text-decoration: solid;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px;
+        text-shadow: 1px 1px 2px rgb(255, 183, 0); /* Adjust text shadow if needed */
+    }
+    
+    .Moreg {
+        border-radius: 10px;
+        color: brown;
+        background-color: gold;
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        border: none;
+    }}
+    

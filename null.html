@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blurred Background Image</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            position: relative;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.5); /* Background color with transparency */
+            overflow: hidden; /* To hide the blurred pseudo-element overflow */
+        }
+
+        .container::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('path-to-your-image.jpg') no-repeat center center/cover;
+            filter: blur(10px); /* Adjust the blur intensity */
+            z-index: -1; /* Place the blurred image behind the container content */
+        }
+
+        .content {
+            position: relative;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Welcome to My Website</h1>
+            <p>This is a blurred background image with a semi-transparent background color.</p>
+        </div>
+    </div>
+</body>
+</html>
