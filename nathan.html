@@ -14,7 +14,7 @@
         .SoFun1 {
             background-color: gold;
             color: chocolate; 
-            text-decoration: solid;
+            text-decoration: none;
             padding: 10px;
             border-radius: 10px;
             margin: 10px;
@@ -26,12 +26,24 @@
             color: brown;
             background-color: gold;
             padding: 10px 20px;
-            margin: 10px;
-            margin-left: 40px;
-            margin-right: 40px;
             font-size: 20px;
             cursor: pointer;
             border: none;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+            margin-left: 50px;
+            margin-right: 50px; }
+
+        .audio-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            width: 740px;
         }
     </style>
     <link rel="stylesheet" href="wonk.css"/>
@@ -40,18 +52,29 @@
 <body>  
 
     <center>
-        <h1 style="font-size: 50px; color: rgb(203, 96, 19); background-color:gold; border: solid 5px; border-radius: 4px;">
-            <strong>
-                GAAAAAMMMMBBBIIIINNNG SOOOOOOOO GGGOOOOD</strong>
+        <h1 style="font-size: 50px; color: rgb(203, 96, 19); background-color: rgb(250, 226, 10); border: solid 5px; border-radius: 4px;">
+            <strong>GAAAAAMMMMBBBIIIINNNNG SOOOOOOOO GGGOOOOD</strong>
         </h1><br><br><br><br><br>
 
-        <a href="https://youtu.be/U9b4YwZP5uM?si=pglU6LpPyCqkm1BM"><button style="font-size: 50px; border: solid 10px; border-color: rgb(240, 155, 8); background-color: rgb(255, 231, 96); text-align: center; border-radius: 4px; color: chocolate;">SEEEEEEEEEEE???????????</button></a><br><br><br><br><br>
+        <a href="https://youtu.be/U9b4YwZP5uM?si=pglU6LpPyCqkm1BM">
+            <button style="font-size: 50px; border: solid 10px; border-color: rgb(203, 96, 19); background-color: rgb(250, 226, 10); text-align: center; border-radius: 4px; color: chocolate;">
+                SEEEEEEEEEEE???????????
+            </button>
         </a>
+<br><br><br><br><br>
     
-        <button class="Moreg"><h1>MORE GAMBLE!</h1></button>
-        <button class="Moreg"><h1>GAMBLE MORE!</h1></button><br>
-        <audio style="margin-left: 40px; margin-right:  40px; width: 360px;" src="13793006_casino-gambling-ambience_by_sound-ideas_preview (1).mp3" loop controls></audio>
-        <audio style="margin-left: 40px; margin-right:  40px; width: 360px;" src="464628__sofiesmood__casino-slots-sound-effects.mp3" loop controls></audio>
+        <div class="button-container">
+            <button class="Moreg"><h1>MORE GAMBLE!</h1></button>
+            <button class="Moreg"><h1>GAMBLE MORE!</h1></button>
+        </div>
+    </center>
+
+    <center>
+
+        <div class="audio-container">
+            <audio src="13793006_casino-gambling-ambience_by_sound-ideas_preview (1).mp3" loop controls></audio>
+            <audio src="464628__sofiesmood__casino-slots-sound-effects.mp3" loop controls></audio>
+        </div>
 
         <div class="SoFun1">
             <p><strong>IN THE WORLD OF GAMBLING, THE POTENTIAL FOR HUGE WINS CAN BE BOTH EXCITING AND TEMPTING. THE POSSIBILITY OF BECOMING A MILLIONAIRE IS ALWAYS THERE, AND THE THRILL OF PLACING YOUR BETS AND ANTICIPATING THE OUTCOME CAN BE AMAZING. THE PROSPECT OF WALKING AWAY WITH A BA-ZILLION DOLLARS IS SURE TO MAKE ANY BET ALL THE MORE ALLURING.</strong></p>
@@ -61,5 +84,15 @@
             <p><strong>GAMBLING IS SUPER AWESOME AND A TON OF FUN! WHEN YOU PLACE A BET, YOU GET A RUSH OF ADRENALINE AND EXCITEMENT, KNOWING THAT YOU COULD WIN LOTS OF MONEY! THE POSSIBILITY OF BECOMING RICH OVERNIGHT IS ALWAYS THERE, MAKING IT A VERY EXCITING GAMBLE!</strong></p>
         </div>
     </center>
+
+    <iframe width="640" height="360" 
+            src="https://www.youtube.com/embed/V6MMs0zY3kQ?autoplay=1&mute=1&loop=1&playlist=V6MMs0zY3kQ" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+    </iframe>
+
+    
 </body>
 </html>
+
