@@ -39,6 +39,7 @@ body {
     font-size: 20px;
     cursor: pointer;
     border: none;
+    
 
 }
 
@@ -53,9 +54,9 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-    width: 740px;
+    width: 2000px;
     margin-bottom: 40px;
-
+    margin-right: 80px;
 }
 
 h1 {
