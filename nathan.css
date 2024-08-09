@@ -21,14 +21,16 @@ body {
 }
 
 .SoFun1 {
-    height: 400px;
+    height: 320px;
+    width: 1650px;
     background-color: gold;
     color: chocolate; 
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
     margin: 10px;
     text-shadow: 1px 1px 2px rgb(255, 183, 0);
+    font-size: 22px;
 }
 
 .Moreg {
@@ -53,10 +55,11 @@ body {
 .audio-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 170px;
     width: 2000px;
     margin-bottom: 40px;
     margin-right: 80px;
+    
 }
 
 h1 {
