@@ -1,0 +1,33 @@
+ .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        
+            background-image: url('images/audubon-bird-art-gallery-wall-2-of-4.jpg');
+            background-size: 100%;
+            background-position: center;
+            opacity: 80%;
+            z-index: -1;
+        }
+h1 {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: whitesmoke;
+   display: inline;
+   font-size: 3em;
+   
+
+
+}
+h2 {font-size: 1.6em;
+    font-style: italic;
+    background-color: cornsilk;
+    display: inline;
+    position: relative; top: 15px;
+
+
+
+
+    }
+
+
