@@ -1,15 +1,14 @@
  .background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        
-            background-image: url('images/audubon-bird-art-gallery-wall-2-of-4.jpg');
-            background-size: 100%;
-            background-position: center;
-            opacity: 80%;
-            z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;    
+    background-image: url('images/audubon-bird-art-gallery-wall-2-of-4.jpg');
+    background-size: 100%;
+    background-position: center;
+    opacity: 80%;
+    z-index: -1;
         }
 h1 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -29,10 +28,6 @@ h1 {
     padding: 5px;
     align-items: center;
 
-
-
-
-
     }
     .options{
         position: relative;
@@ -41,9 +36,10 @@ h1 {
         
         
         }        
-    .option1{
+    .option1
+        {
         background-color: rgb(243, 210, 145);
-        display: inline-block;
+        display: inline-flex;
         padding: 3px;
         margin: 5px;
         height: 40px;
@@ -54,9 +50,10 @@ h1 {
         position: relative;
 
     }
-    .option2{
+    .option2
+        {
         background-color: rgb(204, 247, 103);
-        display: inline-block;
+        display: inline-flex;
         padding: 3px;
         margin: 5px;
         height: 40px;
@@ -64,11 +61,13 @@ h1 {
         justify-content: center;
         align-items: center;
         font-size: 1.2em;
+        position: relative;
 
     }
-    .option3{
+    .option3
+        {
         background-color: rgb(136, 103, 35);
-        display: inline-block;
+        display: inline-flex;
         padding: 3px;
         margin: 5px;
         height: 40px;
@@ -76,11 +75,13 @@ h1 {
         justify-content: center;
         align-items: center;
         font-size: 1.2em;
+        position: relative;
 
     }
-    .option4 { 
+    .option4
+        { 
         background-color: rgb(240, 0, 136);
-        display: inline-block;
+        display: inline-flex;
         padding: 3px;
         margin: 5px;
         height: 40px;
@@ -88,5 +89,6 @@ h1 {
         justify-content: center;
         align-items: center;
         font-size: 1.2em;
+        position: relative;
 
     }
