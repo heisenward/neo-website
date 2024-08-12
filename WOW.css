@@ -16,6 +16,8 @@ h1 {
    display: inline;
    font-size: 3em;
    padding: 5px;
+   border: solid rgb(3, 3, 3);
+   margin: 10px;
    
 
 
@@ -27,6 +29,8 @@ h1 {
     position: relative; top: 15px;
     padding: 5px;
     align-items: center;
+    border: solid rgb(3, 3, 3);
+    margin: 10px;
 
     }
     .options{
@@ -48,6 +52,7 @@ h1 {
         align-items: center;
         font-size: 1.2em;
         position: relative;
+        border: solid rgb(255, 255, 255);
 
     }
     .option2
@@ -62,6 +67,7 @@ h1 {
         align-items: center;
         font-size: 1.2em;
         position: relative;
+        border: solid rgb(255, 255, 255); 
 
     }
     .option3
@@ -76,11 +82,12 @@ h1 {
         align-items: center;
         font-size: 1.2em;
         position: relative;
+        border: solid rgb(255, 255, 255);;
 
     }
     .option4
         { 
-        background-color: rgb(240, 0, 136);
+        color: rgb(240, 0, 136);
         display: inline-flex;
         padding: 3px;
         margin: 5px;
@@ -88,7 +95,9 @@ h1 {
         width: 100px;
         justify-content: center;
         align-items: center;
-        font-size: 1.2em;
+        font-size: 1.9em;
         position: relative;
+        border: solid rgb(255, 255, 255);
+        
 
     }
