@@ -17,12 +17,13 @@ h1 {
    font-size: 3em;
    padding: 5px;
    border: solid rgb(3, 3, 3);
-   margin: 10px;
+   margin-bottom: 10px;
    
 
 
 }
-    h2 {font-size: 1.8em;
+    h2 {
+    font-size: 1.8em;
     font-style: italic;
     background-color: cornsilk;
     display: inline;
@@ -30,7 +31,7 @@ h1 {
     padding: 5px;
     align-items: center;
     border: solid rgb(3, 3, 3);
-    margin: 10px;
+    margin-top: 10px; 
 
     }
     .options{
@@ -53,6 +54,8 @@ h1 {
         font-size: 1.2em;
         position: relative;
         border: solid rgb(255, 255, 255);
+        border-radius: 0px 15px 5px 20px;
+        
 
     }
     .option2
@@ -68,6 +71,7 @@ h1 {
         font-size: 1.2em;
         position: relative;
         border: solid rgb(255, 255, 255); 
+        border-radius: 10px 0 10px 0;
 
     }
     .option3
@@ -82,7 +86,8 @@ h1 {
         align-items: center;
         font-size: 1.2em;
         position: relative;
-        border: solid rgb(255, 255, 255);;
+        border: solid rgb(255, 255, 255);
+        border-radius: 30px;
 
     }
     .option4
@@ -98,6 +103,7 @@ h1 {
         font-size: 1.9em;
         position: relative;
         border: solid rgb(255, 255, 255);
+        border-radius: 2000px 200px 200px 200px;
         
 
     }
