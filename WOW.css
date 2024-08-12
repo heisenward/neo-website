@@ -15,18 +15,69 @@ h1 {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida 
     background-color: whitesmoke;
    display: inline;
    font-size: 3em;
+   padding: 5px;
    
 
 
 }
-h2 {font-size: 1.6em;
+h2 {font-size: 1.8em;
     font-style: italic;
     background-color: cornsilk;
     display: inline;
     position: relative; top: 15px;
+    padding: 5px;
 
 
 
+
+    }
+    .option1{
+        background-color: rgb(243, 210, 145);
+        display: inline-block;
+        padding: 3px;
+        margin: 5px;
+        height: 40px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2em;
+
+    }
+    .option2{  background-color: rgb(204, 247, 103);
+        display: inline-block;
+        padding: 3px;
+        margin: 5px;
+        height: 40px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2em;
+
+    }
+    .option3{  background-color: rgb(136, 103, 35);
+        display: inline-block;
+        padding: 3px;
+        margin: 5px;
+        height: 40px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2em;
+
+    }
+    .option4 {  background-color: rgb(240, 0, 136);
+        display: inline-block;
+        padding: 3px;
+        margin: 5px;
+        height: 40px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2em;
 
     }
 

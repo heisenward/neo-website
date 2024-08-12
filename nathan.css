@@ -3,7 +3,6 @@ body {
     display: grid;
     place-items: center;
     height: 100vh; 
-    margin: 0; 
 }
 
 .background {
@@ -16,8 +15,7 @@ body {
     background-image: url('images/Coins.png');
     background-size: 100%;
     background-position: center;
-    opacity: 80%;
-    z-index: -1;
+
 }
 
 .SoFun1 {
