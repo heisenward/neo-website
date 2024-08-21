@@ -34,20 +34,81 @@ h1 {
     margin-top: 10px; 
 
     }
-    .options{
-        position: relative;
-        left: 700px;
+    button
+    { height: 50px;
+    border-radius: 4px;
+
+
+
+
+
+    }
+    .button1
+    {
+    color: #ceeceb;
+    background-color: rgb(194, 120, 31);
+    }
+    .button1:hover
+    {
+    color: #000;
+    font-style: italic;
+    height: 55px;
+    text-decoration: underline;
+
+    }
+    .button2
+    {
+    color: rgb(46, 194, 152); 
+    background-color: rgb(213, 240, 205)
+    }
+    .button2:hover
+    {
+    color: #000;
+    font-style: italic;
+    height: 55px;
+    text-decoration: underline;
+
+    }
+    .button3
+    {
+    color: #000;
+    background-color:rgb(160, 127, 87)
+    }
+    .button3:hover
+    {
+    color: #000;
+    font-style: italic;
+    height: 55px;
+    text-decoration: underline;
+
+    }
+    .button4
+    {
+    background-color: rgb(0, 7, 221)
+    }
+    .button4:hover
+    {
+    color: #000;
+    font-style: italic;
+    height: 55px;
+    text-decoration: line-through;
+
+    }
+    .options
+    {
+    position: relative;
         
         
         
-        }        
+    }      
+
     .option1
         {
         background-color: rgb(243, 210, 145);
         display: inline-flex;
         padding: 3px;
         margin: 5px;
-        height: 40px;
+        height: 80px;
         width: 100px;
         justify-content: center;
         align-items: center;
@@ -55,6 +116,8 @@ h1 {
         position: relative;
         border: solid rgb(255, 255, 255);
         border-radius: 0px 15px 5px 20px;
+        color: #c4e8e5;
+       
         
 
     }
@@ -64,7 +127,7 @@ h1 {
         display: inline-flex;
         padding: 3px;
         margin: 5px;
-        height: 40px;
+        height: 80px;
         width: 100px;
         justify-content: center;
         align-items: center;
@@ -72,6 +135,7 @@ h1 {
         position: relative;
         border: solid rgb(255, 255, 255); 
         border-radius: 10px 0 10px 0;
+        color: #d12020;
 
     }
     .option3
@@ -80,7 +144,7 @@ h1 {
         display: inline-flex;
         padding: 3px;
         margin: 5px;
-        height: 40px;
+        height: 80px;
         width: 100px;
         justify-content: center;
         align-items: center;
@@ -88,6 +152,7 @@ h1 {
         position: relative;
         border: solid rgb(255, 255, 255);
         border-radius: 30px;
+        color: #d12020;
 
     }
     .option4
@@ -96,14 +161,15 @@ h1 {
         display: inline-flex;
         padding: 3px;
         margin: 5px;
-        height: 40px;
+        height: 80px;
         width: 100px;
         justify-content: center;
         align-items: center;
         font-size: 1.9em;
         position: relative;
         border: solid rgb(255, 255, 255);
-        border-radius: 2000px 200px 200px 200px;
+        border-radius: 200px 20px 20px 20px;
+        color: #d12020;
         
 
     }
