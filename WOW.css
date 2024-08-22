@@ -34,18 +34,11 @@ h1 {
     margin-top: 10px; 
 
     }
-    button
-    { height: 50px;
-    border-radius: 4px;
-
-
-
-
-
-    }
+   
     .button1
     {
     color: #ceeceb;
+    height: 53px;
     background-color: rgb(194, 120, 31);
     }
     .button1:hover
@@ -58,11 +51,13 @@ h1 {
     }
     .button2
     {
+    height: 53px;
     color: rgb(46, 194, 152); 
     background-color: rgb(213, 240, 205)
     }
     .button2:hover
     {
+    height: 55px;
     color: #000;
     font-style: italic;
     height: 55px;
@@ -71,6 +66,7 @@ h1 {
     }
     .button3
     {
+    height: 53px;
     color: #000;
     background-color:rgb(160, 127, 87)
     }
@@ -84,6 +80,7 @@ h1 {
     }
     .button4
     {
+    height: 53px;
     background-color: rgb(0, 7, 221)
     }
     .button4:hover
@@ -170,6 +167,15 @@ h1 {
         border: solid rgb(255, 255, 255);
         border-radius: 200px 20px 20px 20px;
         color: #d12020;
-        
+
+    }
+
+    .Moona
+    {
+    border:solid #605b2d;
+    height: 400px;
+    border-width: 10px;
+    border-radius: 2px;
+    margin-left: 20px;
 
     }
