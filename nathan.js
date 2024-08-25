@@ -1,32 +1,17 @@
 
-let me = "cool";
-
-console.log("You are",me);
-
-console.log(`You are ${me}`);
-
-let NS = true;
-
-
-console.log(`Theyre coming ${NS}`)
-
-let H = 1111 
-
-  console.log(typeof H);
-
 //let bodies=200;
 //bodies-= 1;
 //console.log(bodies)
 //let gamer= window.prompt("who are you?") 
 //console.log(`He is ${gamer}`)
 
-let SSN;
+/*let SSN;
 document.getElementById("button").onclick = function()
 { SSN = document.getElementById("input").value;
 console.log(`SSN: ${SSN}`);
   window.alert("Thank you!")
   checkSSN();
-
+document.getElementById("KK").textContent = ("I willl be selling thiss!!")
 }
 function checkSSN(){
   if (typeof SSN === 'undefined' || SSN === ''){
@@ -47,11 +32,19 @@ function checkSSN(){
 }
 
 function checkCC(){
-if (typeof CC !== 'number' || isNaN(CC)){
+ if (typeof CC !== 'number' || isNaN(CC)){
 window.alert("Its gotta be a number silly!");
 }
  if (typeof CC === 'undefined' || CC === ''){
 window.alert("heeyyyy, theres no data here!");
+
+
     }
   }
-
+*/
+document.getElementById("button").onclick = function(){
+let input1 = document.getElementById("text").value;
+ let x= Number(input1);
+ let y= x + 2;
+ window.alert(`y=${y}`);
+}
