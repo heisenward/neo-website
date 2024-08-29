@@ -1,37 +1,32 @@
-let SSN;
-document.getElementById("button").onclick = function()
-{ SSN = document.getElementById("input").value;
-console.log(`SSN: ${typeof SSN} ${SSN}`);
-  window.alert("Thank you!")
-  checkSSN();
+const Input = document.getElementById("Input");
+const Input1 = document.getElementById("Inpu1t");
+const Submit = document.getElementById("Submit");
+
+Submit.onclick = function()
+{
+
+let SS = Number(Input.value);
+let CC = Number(Input1.value);
+
+
+  if (isNaN(CC) || isNaN(SS)){
+window.alert("those arent numbers silly")
+
+console.log(`SS: ${typeof SS}: ${SS}`)
+console.log(`CC: ${typeof CC}: ${CC}`)
+
 }
-function checkSSN(){
-  if (typeof SSN === 'undefined' || SSN === ''){
-      window.alert("heeyyyy, theres no data here!");
+let SSS = (Input.value);
+let CCC = (Input1.value);
 
-     if (typeof SSN !== 'number' || isNaN(SSN) === true || typeof SNN === 'string'){
-      window.alert("And it has to a number");}
-      document.getElementById("KK").textContent = ("I willl be selling thiss!!")
-  }
+  if (SSS === "" && CCC === ""){
+
+    window.alert("Heyyy theres no data here !1")}
+
+if (Number(CC) || Number(SS) || SSS !== "" && CCC !== "" && !isNaN(CC) && !isNaN(SS)){
+window.alert("THANKS")
+
+console.log(`SS1: ${typeof SS}: ${SS}`)
+console.log(`CC1: ${typeof CC}: ${CC}`)
 }
-
-  let CC;
-  document.getElementById("button2").onclick = function(){
-    CC = document.getElementById("input2").value; 
-    console.log(`Credit Card Number: ${typeof CC} ${CC}`);
-    window.alert("Thank you!")
-    checkCC();
 }
-
-function checkCC(){ 
-  if (typeof CC === 'undefined' || CC === ''){
-  window.alert("heeyyyy, theres no data here!");
-
- if (typeof CC !== 'number'|| isNaN(CC) === true){
-window.alert("And its gotta be a number");
-document.getElementById("KK").textContent = ("I willl be selling thiss!!")
-}
-
-
-    }
-  }
